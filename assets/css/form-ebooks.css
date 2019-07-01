@@ -1,0 +1,129 @@
+iframe{
+	width: 425px;
+}
+
+form{
+	width: 42%;
+	margin-right: 20px;
+	float: right;
+}
+form{
+	float: right; 
+}
+span.checkbox-option input[type="checkbox"]{
+width: 20px;
+    height: 20px;
+}
+span.checkbox-option label{
+color: #767477;
+    font-size: 18px;
+    font-weight: 100;
+}
+select{
+height:50px;
+border:none;
+border-bottom:1px solid #ccc;
+max-width:100% !important;
+min-width:100%;
+}
+fieldset li label{
+	color: #fa6843;
+	font-size: 26px;
+	font-weight: 600;
+	margin-top: 16px;
+      font-family:'Roboto' sans-serif !important;
+}
+form label:hover{
+	color:#666;
+}
+form label:hover input{
+	color:#666;
+	border-bottom:2px solid #666;
+}
+form input {
+	width: 97%;
+	border-radius: 0px;
+	border: 0px;
+	border-bottom: 1px solid #ccc;
+	height: 50px;
+	padding-left: 10px;
+	font-size: 32px;
+	margin-top: -5px;
+}
+form input:hover {
+
+}
+input[type="submit"]{
+	background: #fa6843;
+	border-radius: 29px;
+	color: #FFF;
+	font-size: 28px;
+	height: 67px;
+	width: 95%;
+	display: block;
+	margin: auto;
+	margin-top: 18px;
+	font-family: 'Roboto';
+	font-weight: 900;
+	cursor: pointer; 
+} 
+
+input[type=text], input[type=password], textarea,select{
+	border:none;
+	border-bottom:1px solid #ccc;
+    font-size: 18px;
+    color: #767477;
+}
+
+input[type="submit"]:hover{
+	background: #302c2d;
+}
+
+input[type="submit"]:hover{
+	border:0px;
+}
+button#submit_button{
+background: #fa6843;
+			border-radius: 29px;
+			color: #FFF;
+			font-size: 28px;
+			height: 67px;
+			width: 95%;
+			display: block;
+			margin: auto;
+			margin-top: 18px;
+			font-family: 'Roboto';
+			font-weight: 900;
+			cursor: pointer; 
+        font-family:sans-serif;
+border:none;
+}
+button#submit_button:hover{
+background: #302c2d;
+border:0px;
+}
+@media (max-width: 894px){
+iframe {
+			width: 100%;
+height:auto;
+		}
+	article{
+		display: block;
+	}
+	form{
+		float: none;
+	}
+	.conteudo{
+		width: 96%;
+		margin: auto;
+		float: none;
+	}
+	.conteudo img{
+		width: 100%;
+	}
+	form{
+		width: 95%;
+		float: none;
+		margin: auto;
+	}
+}
